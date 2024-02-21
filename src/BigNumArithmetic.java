@@ -1,4 +1,5 @@
 import java.io.*;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class BigNumArithmetic {
@@ -8,8 +9,14 @@ public class BigNumArithmetic {
                 FileInputStream file = new FileInputStream(args[0]);
                 Scanner scr = new Scanner(file);
                 while(scr.hasNextLine()) {
-                    System.out.println(scr.nextLine());
+                    System.out.println(scr.nextLine().replaceAll("\\s+", " ").replaceAll("^\\s+", ""));
+                    //String line = scr.nextLine().replaceAll("\\s+", " ").replaceAll("^\\s+", "");
+                    //String[] items = line.split(" ");
+                    //for (int i = 0; i < items.length; i++) {
+                            //System.out.println(items[i]);
+                    //}
                 }
+
             } catch (FileNotFoundException e) {
                 System.out.println("The file " + args[0] + " was not found!");
             }
