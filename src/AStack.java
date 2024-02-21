@@ -1,3 +1,5 @@
+//testing
+
 public class AStack implements Stack{
     private Object stackArray[]; // Array holding stack
     private static final int DEFAULT_SIZE = 10;
