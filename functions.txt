@@ -1,0 +1,4 @@
+removeLeadingZeroes: puts values in array, replaceAll()-gets rid of zeros
+reverse string
+put reversed string in linked list
+addition

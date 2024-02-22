@@ -10,7 +10,7 @@ public class BigNumArithmetic {
                 Scanner scr = new Scanner(file);
                 while(scr.hasNextLine()) {
                     //System.out.println(scr.nextLine().replaceAll("\\s+", " ").replaceAll("^\\s+", ""));
-                    String line = scr.nextLine().replaceAll("\\s+", " ").replaceAll("^\\s+", "");
+                    String line = scr.nextLine().replaceAll("\\s+", " ").replaceAll("^\\s+", "");		//replaces extra spaces and lines with 1 space or nothing
                     String[] items = line.split(" ");
                     for (int i = 0; i < items.length; i++) {
                         if (items[i].length() > 0) {
