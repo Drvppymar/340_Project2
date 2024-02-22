@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e56fc03f-7650-4da3-8225-8e82690dc121" name="Changes" comment="Added all stack, list, and linked list files from textbook. Also, it can run in the command line with passing in file name as an argument and prints out the file in the terminal.">
+    <list default="true" id="e56fc03f-7650-4da3-8225-8e82690dc121" name="Changes" comment="Got rid of all extra whitespaces except the empty lines when printing the file. Comments are what PC showed me but, I can't get it to work yet.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BigNumArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigNumArithmetic.java" afterDir="false" />
     </list>
@@ -67,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708533920949</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Got rid of all extra whitespaces except the empty lines when printing the file. Comments are what PC showed me but, I can't get it to work yet.">
+      <created>1708542791105</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708542791105</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +121,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Check file" />
     <MESSAGE value="Added all stack, list, and linked list files from textbook. Also, it can run in the command line with passing in file name as an argument and prints out the file in the terminal." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added all stack, list, and linked list files from textbook. Also, it can run in the command line with passing in file name as an argument and prints out the file in the terminal." />
+    <MESSAGE value="Got rid of all extra whitespaces except the empty lines when printing the file. Comments are what PC showed me but, I can't get it to work yet." />
+    <option name="LAST_COMMIT_MESSAGE" value="Got rid of all extra whitespaces except the empty lines when printing the file. Comments are what PC showed me but, I can't get it to work yet." />
   </component>
 </project>
