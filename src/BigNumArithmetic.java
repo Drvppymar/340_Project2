@@ -3,7 +3,9 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class BigNumArithmetic {
-    public static void main(String[] args) {
+    removeLeadingZeroes
+	
+	public static void main(String[] args) {
         if (0 < args.length) {
             try {
                 FileInputStream file = new FileInputStream(args[0]);
