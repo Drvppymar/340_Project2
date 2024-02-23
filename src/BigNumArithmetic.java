@@ -45,44 +45,50 @@ public class BigNumArithmetic {
         return a;
     }
 
-    public static String mathAddition(String a, String b) {
+    public  String mathAddition(String a, String b) {
     	
         //convert each reverse string to linked list
-    	//String newA = reverseString(a);
-    	LList num1 = new LList();
-    	//num1 = stringToLList(newA);
-    	//String newB = reverseString(b);
-    	LList num2 = new LList();
-    	//num2 = stringToLList(newB);
-    	int listALength = num1.length();
-    	int listBLength = num2.length();
+    	String newA = reverseString(a);
+    	LList numA = new LList();
+    	numA = stringToLList(newA);
+    	String newB = reverseString(b);
+    	LList numB = new LList();
+    	numB = stringToLList(newB);
+    	int listALength = numA.length();
+    	int listBLength = numB.length();
     	
     	//find difference between length of each linked list, add zeroes to front of list where needed
     	if(listALength>listBLength) {
     		int diff = listALength-listBLength;
-    		for(int i = 0; i < diff;i++) {
-    			num2.moveToStart();
-    			num2.insert(0);
+    		for(int i = 0; i < diff; i++) {
+    			numB.moveToStart();
+    			numB.insert(0);
     		}
     	}
     	else if(listBLength>listALength) {
     		int diff = listBLength-listALength;
     		for(int i = 0; i<diff; i++) {
-    			num1.moveToStart();
-    			num1.insert(0);
+    			numA.moveToStart();
+    			numA.insert(0);
     		}
     	}
     	
     	//initialize carry to equal 0
     	int carry = 0;
+    	LList sum = new LList();
     	for (int i = 0; i<listALength; i++) {
-    		num1.moveToPos(i);
-    		num1.getValue();
-    		num2.moveToPos(i);
-    		num2.getValue();
+    		numA.moveToPos(i);
+    		numA.getValue();
+    		numB.moveToPos(i);
+    		numB.getValue();
+    		int sumValue = carry; //+ numA + numB
+    		if (sumValue>=10) { carry++; }
+    		sum.append(sumValue-10);
     	}
-    	//add position[i] from each linked list + carry
     	//if at end of list and carry != 0, make a new node with value 1
+    	if(carry != 0) {
+    		sum.append(1);
+    	}
     	return a;	//stub
     }
 
