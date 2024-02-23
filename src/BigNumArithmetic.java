@@ -2,8 +2,6 @@ import java.io.*;
 import java.util.Scanner;
 
 public class BigNumArithmetic {
-    //removeLeadingZeroes(String line)- use array of line
-	//reverseString(String line)
 
     public static String[] lineToArray(String line) {
         String[] lineArray = line.split(" ");
@@ -20,6 +18,7 @@ public class BigNumArithmetic {
         System.out.print("=\n");
     }
     
+    //insert/append in reverse order instead of additional function
     public static void reverseString(String line) {
     	char ch;
     	String reversedString;
