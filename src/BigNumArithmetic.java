@@ -45,7 +45,8 @@ public class BigNumArithmetic {
         return a;
     }
 
-    public  String mathAddition(String a, String b) {
+
+    public String mathAddition(String a, String b) {
     	
         //convert each reverse string to linked list
     	String newA = reverseString(a);
@@ -92,7 +93,19 @@ public class BigNumArithmetic {
     	return a;	//stub
     }
 
+    public String stackRule(String[] line) {
+        LStack l = new LStack(100);
+        for (int i = 0; i < line.length; i++) {
+            if(line[i].equals("+") != true) {
+                l.push(line[i]);
+            } else if (line[i].equals("+") == true && l.length() >= 2) {
 
+            }
+
+        }
+        String a = "";
+        return a;
+    }
 
 	public static void main(String[] args) {
         if (0 < args.length) {
