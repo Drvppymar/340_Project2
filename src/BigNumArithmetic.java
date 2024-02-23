@@ -38,19 +38,22 @@ public class BigNumArithmetic {
 
     public String llistToString(LList l) {
         String a = "";
-        //while ()
+        while (l.isAtEnd() != true) {
+            a = a + l.getValue();
+            l.next();
+        }
         return a;
     }
 
-    public String mathAddition(String a, String b) {
+    public static String mathAddition(String a, String b) {
     	
         //convert each reverse string to linked list
-    	String newA = reverseString(a);
+    	//String newA = reverseString(a);
     	LList num1 = new LList();
-    	num1 = stringToLList(newA);
-    	String newB = reverseString(b);
+    	//num1 = stringToLList(newA);
+    	//String newB = reverseString(b);
     	LList num2 = new LList();
-    	num2 = stringToLList(newB);
+    	//num2 = stringToLList(newB);
     	int listALength = num1.length();
     	int listBLength = num2.length();
     	
@@ -72,22 +75,18 @@ public class BigNumArithmetic {
     	
     	//initialize carry to equal 0
     	int carry = 0;
-    	LList sum = new LList();
     	for (int i = 0; i<listALength; i++) {
     		num1.moveToPos(i);
     		num1.getValue();
     		num2.moveToPos(i);
     		num2.getValue();
-    		//add num1, num2, carry
-    		//append sums at each position
-    	}
-    	if(carry != 0) {
-    		sum.append(1);
     	}
     	//add position[i] from each linked list + carry
     	//if at end of list and carry != 0, make a new node with value 1
     	return a;	//stub
     }
+
+
 
 	public static void main(String[] args) {
         if (0 < args.length) {
