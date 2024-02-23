@@ -87,17 +87,18 @@ public class BigNumArithmetic {
     }
 
     public String stackRule(String[] line) {
-        LStack l = new LStack(100);
+        LStack l = new LStack();
         for (int i = 0; i < line.length; i++) {
             if(line[i].equals("+") != true) {
                 l.push(line[i]);
             } else if (line[i].equals("+") == true && l.length() >= 2) {
-
+                mathAddition(l.pop().toString(), l.pop().toString());
             }
-
         }
-        String a = "";
-        return a;
+        if (l.length() > 1 || l.length() < 1) {
+            return "";
+        }
+        return l.pop().toString();
     }
 
 	public static void main(String[] args) {
