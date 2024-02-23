@@ -2,7 +2,8 @@ import java.io.*;
 import java.util.Scanner;
 
 public class BigNumArithmetic {
-    removeLeadingZeroes
+    //removeLeadingZeroes(String line)- use array of line
+	//reverseString(String line)
 	
 	public static void main(String[] args) {
         if (0 < args.length) {
