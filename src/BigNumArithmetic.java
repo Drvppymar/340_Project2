@@ -19,6 +19,15 @@ public class BigNumArithmetic {
         }
         System.out.print("=\n");
     }
+    
+    public static void reverseString(String line) {
+    	char ch;
+    	String reversedString;
+    	for(int i=0;i<str.length();i++) {
+    		ch = line.charAt(i);
+    		reversedString = ch+reversedString;
+    	}
+    }
 
     /*
     public static LList stringToLList(String num) {
