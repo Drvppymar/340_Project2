@@ -5,6 +5,9 @@ public class BigNumArithmetic {
 
     public static String[] lineToArray(String line) {
         String[] lineArray = line.split(" ");
+        for (int i = 0; i < lineArray.length; i++) {
+            lineArray[i] = lineArray[i].replaceAll("^0+(?!$)", "");
+        }
         return lineArray;
     }
 
