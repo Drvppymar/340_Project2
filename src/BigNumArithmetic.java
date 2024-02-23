@@ -17,18 +17,18 @@ public class BigNumArithmetic {
         }
         System.out.print("=\n");
     }
-    
     //insert/append in reverse order instead of additional function
-    public static void reverseString(String line) {
+    public static String reverseString(String a) {
     	char ch;
-    	String reversedString;
-    	for(int i=0;i<str.length();i++) {
-    		ch = line.charAt(i);
-    		reversedString = ch+reversedString;
+    	String reversedString = "";
+    	for(int i = 0; i < a.length(); i++) {
+    		ch = a.charAt(i);
+    		reversedString = ch + reversedString;
     	}
+        return reversedString;
     }
 
-    /*
+
     public static LList stringToLList(String num) {
         LList l = new LList();
         for (int i = 0; i < num.length(); i++) {
@@ -36,7 +36,18 @@ public class BigNumArithmetic {
         }
         return l;
     }
-     */
+
+
+
+    public static String llistToString(LList l) {
+        String a = "";
+        return a;
+    }
+
+    public static String mathAddition(String a, String b) {
+        String c = "";
+        return c;
+    }
 
 	public static void main(String[] args) {
         if (0 < args.length) {
