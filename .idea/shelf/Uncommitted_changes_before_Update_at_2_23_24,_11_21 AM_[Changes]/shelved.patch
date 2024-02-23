@@ -1,0 +1,193 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"e56fc03f-7650-4da3-8225-8e82690dc121\" name=\"Changes\" comment=\"Added new files.\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/BigNumArithmetic.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/BigNumArithmetic.iml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/BigNumArithmetic.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/BigNumArithmetic.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Test_AdditionInput1.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Test_AdditionInput1.txt\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Interface\" />\n        <option value=\"JUnit4 Test Class\" />\n        <option value=\"JUnit5 Test Class\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2ceJn2lGB0ZRyZo4cziLtLUOwyo\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,\n    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,\n    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,\n    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,\n    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src\" />\n      <recent name=\"$PROJECT_DIR$\" />\n    </key>\n    <key name=\"CreateTestDialog.Recents.Supers\">\n      <recent name=\"\" />\n    </key>\n    <key name=\"CreateTestDialog.RecentsKey\">\n      <recent name=\"\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"e56fc03f-7650-4da3-8225-8e82690dc121\" name=\"Changes\" comment=\"\" />\n      <created>1708466273443</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1708466273443</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Added Check file\">\n      <created>1708468015701</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1708468015701</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Added all stack, list, and linked list files from textbook. Also, it can run in the command line with passing in file name as an argument and prints out the file in the terminal.\">\n      <created>1708533920949</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1708533920949</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Got rid of all extra whitespaces except the empty lines when printing the file. Comments are what PC showed me but, I can't get it to work yet.\">\n      <created>1708542791105</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1708542791105</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Got rid of empty lines in file.\">\n      <created>1708625297430</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1708625297430</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Got rid of empty lines in file.\">\n      <created>1708626351631</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1708626351631</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"Got rid of empty lines in file. Got rid of for loop.\">\n      <created>1708633987352</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1708633987352</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"Added function to take the line string and convert it to an array. Also added the function to take the number and put it into a LList but commented it out because it has a compile issue.\">\n      <created>1708653663316</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1708653663316</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"Added equal sign to each line of operation.\">\n      <created>1708655772522</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1708655772522</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"Went ahead and added the removal of leading zeroes.\">\n      <created>1708656035895</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1708656035895</updated>\n    </task>\n    <task id=\"LOCAL-00010\" summary=\"Added new function to file.\">\n      <created>1708700713208</created>\n      <option name=\"number\" value=\"00010\" />\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1708700713208</updated>\n    </task>\n    <task id=\"LOCAL-00011\" summary=\"Added new files.\">\n      <created>1708700749088</created>\n      <option name=\"number\" value=\"00011\" />\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1708700749088</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"12\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"30ffeb1b-5d1a-4d57-b031-d30a1ec074d3\">\n          <value>\n            <State>\n              <option name=\"SHOW_ONLY_AFFECTED_CHANGES\" value=\"true\" />\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"HEAD\" />\n                      </list>\n                    </value>\n                  </entry>\n                  <entry key=\"roots\">\n                    <value>\n                      <list>\n                        <option value=\"$PROJECT_DIR$\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"OPEN_GENERIC_TABS\">\n      <map>\n        <entry key=\"30ffeb1b-5d1a-4d57-b031-d30a1ec074d3\" value=\"TOOL_WINDOW\" />\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Added Check file\" />\n    <MESSAGE value=\"Added all stack, list, and linked list files from textbook. Also, it can run in the command line with passing in file name as an argument and prints out the file in the terminal.\" />\n    <MESSAGE value=\"Got rid of all extra whitespaces except the empty lines when printing the file. Comments are what PC showed me but, I can't get it to work yet.\" />\n    <MESSAGE value=\"Got rid of empty lines in file.\" />\n    <MESSAGE value=\"Got rid of empty lines in file. Got rid of for loop.\" />\n    <MESSAGE value=\"Added function to take the line string and convert it to an array. Also added the function to take the number and put it into a LList but commented it out because it has a compile issue.\" />\n    <MESSAGE value=\"Added equal sign to each line of operation.\" />\n    <MESSAGE value=\"Went ahead and added the removal of leading zeroes.\" />\n    <MESSAGE value=\"Added new function to file.\" />\n    <MESSAGE value=\"Added new files.\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Added new files.\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 8afaac0f06a846554c11a85910b9de11c1c93578)
++++ b/.idea/workspace.xml	(date 1708705107097)
+@@ -1,11 +1,10 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="e56fc03f-7650-4da3-8225-8e82690dc121" name="Changes" comment="Added new files.">
++    <list default="true" id="e56fc03f-7650-4da3-8225-8e82690dc121" name="Changes" comment="Added test file and, now you must make BigNumArithmetic object to call functions.">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/BigNumArithmetic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BigNumArithmetic.iml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/BigNumArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigNumArithmetic.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Test_AdditionInput1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test_AdditionInput1.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/BigNumArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigNumArithmeticTest.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -17,8 +16,8 @@
+       <list>
+         <option value="Interface" />
+         <option value="JUnit4 Test Class" />
+-        <option value="JUnit5 Test Class" />
+         <option value="Class" />
++        <option value="JUnit5 Test Class" />
+       </list>
+     </option>
+   </component>
+@@ -62,6 +61,23 @@
+       <recent name="" />
+     </key>
+   </component>
++  <component name="RunManager">
++    <configuration name="BigNumArithmeticTest.llistToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="BigNumArithmetic" />
++      <option name="PACKAGE_NAME" value="" />
++      <option name="MAIN_CLASS_NAME" value="BigNumArithmeticTest" />
++      <option name="METHOD_NAME" value="llistToString" />
++      <option name="TEST_OBJECT" value="method" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="JUnit.BigNumArithmeticTest.llistToString" />
++      </list>
++    </recent_temporary>
++  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -148,7 +164,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1708700749088</updated>
+     </task>
+-    <option name="localTasksCounter" value="12" />
++    <task id="LOCAL-00012" summary="Added test file and, now you must make BigNumArithmetic object to call functions.">
++      <created>1708703588435</created>
++      <option name="number" value="00012" />
++      <option name="presentableId" value="LOCAL-00012" />
++      <option name="project" value="LOCAL" />
++      <updated>1708703588435</updated>
++    </task>
++    <option name="localTasksCounter" value="13" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -203,6 +226,7 @@
+     <MESSAGE value="Went ahead and added the removal of leading zeroes." />
+     <MESSAGE value="Added new function to file." />
+     <MESSAGE value="Added new files." />
+-    <option name="LAST_COMMIT_MESSAGE" value="Added new files." />
++    <MESSAGE value="Added test file and, now you must make BigNumArithmetic object to call functions." />
++    <option name="LAST_COMMIT_MESSAGE" value="Added test file and, now you must make BigNumArithmetic object to call functions." />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/BigNumArithmetic.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.io.*;\nimport java.util.Scanner;\n\npublic class BigNumArithmetic {\n\n    public String[] lineToArray(String line) {\n        String[] lineArray = line.split(\" \");\n        for (int i = 0; i < lineArray.length; i++) {\n            lineArray[i] = lineArray[i].replaceAll(\"^0+(?!$)\", \"\");\n        }\n        return lineArray;\n    }\n\n    public void arrayToString(String[] a) {\n        for (int i = 0; i < a.length; i++) {\n            System.out.print(a[i] + \" \");\n        }\n        System.out.print(\"=\\n\");\n    }\n    //insert/append in reverse order instead of additional function\n    public String reverseString(String a) {\n    \tchar ch;\n    \tString reversedString = \"\";\n    \tfor(int i = 0; i < a.length(); i++) {\n    \t\tch = a.charAt(i);\n    \t\treversedString = ch + reversedString;\n    \t}\n        return reversedString;\n    }\n\n    public LList stringToLList(String num) {\n        LList l = new LList();\n        for (int i = 0; i < num.length(); i++) {\n            l.append(num.charAt(i));\n        }\n        return l;\n    }\n\n    public String llistToString(LList l) {\n        String a = \"\";\n        //while ()\n        return a;\n    }\n\n    public static String mathAddition(String a, String b) {\n    \t\n        //convert each reverse string to linked list\n    \t//String newA = reverseString(a);\n    \tLList num1 = new LList();\n    \t//num1 = stringToLList(newA);\n    \t//String newB = reverseString(b);\n    \tLList num2 = new LList();\n    \t//num2 = stringToLList(newB);\n    \tint listALength = num1.length();\n    \tint listBLength = num2.length();\n    \t\n    \t//find difference between length of each linked list, add zeroes to front of list where needed\n    \tif(listALength>listBLength) {\n    \t\tint diff = listALength-listBLength;\n    \t\tfor(int i = 0; i < diff;i++) {\n    \t\t\tnum2.moveToStart();\n    \t\t\tnum2.insert(0);\n    \t\t}\n    \t}\n    \telse if(listBLength>listALength) {\n    \t\tint diff = listBLength-listALength;\n    \t\tfor(int i = 0; i<diff; i++) {\n    \t\t\tnum1.moveToStart();\n    \t\t\tnum1.insert(0);\n    \t\t}\n    \t}\n    \t\n    \t//initialize carry to equal 0\n    \tint carry = 0;\n    \tfor (int i = 0; i<listALength; i++) {\n    \t\tnum1.moveToPos(i);\n    \t\tnum1.getValue();\n    \t\tnum2.moveToPos(i);\n    \t\tnum2.getValue();\n    \t}\n    \t//add position[i] from each linked list + carry\n    \t//if at end of list and carry != 0, make a new node with value 1\n    \treturn a;\t//stub\n    }\n\n\tpublic static void main(String[] args) {\n        if (0 < args.length) {\n            try {\n                FileInputStream file = new FileInputStream(args[0]);\n                Scanner scr = new Scanner(file);\n                while(scr.hasNextLine()) {\n                    String line = scr.nextLine().replaceAll(\"\\\\s+\", \" \").replaceAll(\"^\\\\s+\", \"\");\t\t//replaces extra spaces and lines with 1 space or nothing\n                    BigNumArithmetic b = new BigNumArithmetic();\n                    String[] items = b.lineToArray(line);\n                    if (line.length() > 0) {\n                        b.arrayToString(items);\n                    }\n                }\n\n            } catch (FileNotFoundException e) {\n                System.out.println(\"The file \" + args[0] + \" was not found!\");\n            }\n        }\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/BigNumArithmetic.java b/src/BigNumArithmetic.java
+--- a/src/BigNumArithmetic.java	(revision 8afaac0f06a846554c11a85910b9de11c1c93578)
++++ b/src/BigNumArithmetic.java	(date 1708704975767)
+@@ -38,11 +38,14 @@
+ 
+     public String llistToString(LList l) {
+         String a = "";
+-        //while ()
++        while (l.isAtEnd() != true) {
++            a = a + l.getValue();
++            l.next();
++        }
+         return a;
+     }
+ 
+-    public static String mathAddition(String a, String b) {
++    public String mathAddition(String a, String b) {
+     	
+         //convert each reverse string to linked list
+     	//String newA = reverseString(a);
+@@ -55,14 +58,14 @@
+     	int listBLength = num2.length();
+     	
+     	//find difference between length of each linked list, add zeroes to front of list where needed
+-    	if(listALength>listBLength) {
++    	if(listALength > listBLength) {
+     		int diff = listALength-listBLength;
+-    		for(int i = 0; i < diff;i++) {
++    		for(int i = 0; i < diff; i++) {
+     			num2.moveToStart();
+     			num2.insert(0);
+     		}
+     	}
+-    	else if(listBLength>listALength) {
++    	else if(listBLength > listALength) {
+     		int diff = listBLength-listALength;
+     		for(int i = 0; i<diff; i++) {
+     			num1.moveToStart();
+@@ -72,7 +75,7 @@
+     	
+     	//initialize carry to equal 0
+     	int carry = 0;
+-    	for (int i = 0; i<listALength; i++) {
++    	for (int i = 0; i < listALength; i++) {
+     		num1.moveToPos(i);
+     		num1.getValue();
+     		num2.moveToPos(i);
+Index: src/BigNumArithmeticTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import org.junit.jupiter.api.Test;\n\nclass BigNumArithmeticTest {\n\n    @Test\n    void lineToArray() {\n        BigNumArithmetic b = new BigNumArithmetic();\n        b.lineToArray(\"\");\n    }\n\n    @Test\n    void arrayToString() {\n    }\n\n    @Test\n    void reverseString() {\n    }\n\n    @Test\n    void stringToLList() {\n    }\n\n    @Test\n    void llistToString() {\n    }\n\n    @Test\n    void mathAddition() {\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/BigNumArithmeticTest.java b/src/BigNumArithmeticTest.java
+--- a/src/BigNumArithmeticTest.java	(revision 8afaac0f06a846554c11a85910b9de11c1c93578)
++++ b/src/BigNumArithmeticTest.java	(date 1708705107117)
+@@ -1,30 +1,36 @@
+-import org.junit.jupiter.api.Test;
++import static org.junit.jupiter.api.Assertions.*;
+ 
+ class BigNumArithmeticTest {
+ 
+-    @Test
++    @org.junit.jupiter.api.Test
+     void lineToArray() {
+         BigNumArithmetic b = new BigNumArithmetic();
+         b.lineToArray("");
+     }
+ 
+-    @Test
++    @org.junit.jupiter.api.Test
+     void arrayToString() {
+     }
+ 
+-    @Test
++    @org.junit.jupiter.api.Test
+     void reverseString() {
+     }
+ 
+-    @Test
++    @org.junit.jupiter.api.Test
+     void stringToLList() {
+     }
+ 
+-    @Test
++    @org.junit.jupiter.api.Test
+     void llistToString() {
++        BigNumArithmetic b = new BigNumArithmetic();
++        LList l = new LList();
++        l.append("2");
++        l.append("5");
++        l.append("7");
++        assertEquals("257", b.llistToString(l));
+     }
+ 
+-    @Test
++    @org.junit.jupiter.api.Test
+     void mathAddition() {
+     }
+ }
+\ No newline at end of file
