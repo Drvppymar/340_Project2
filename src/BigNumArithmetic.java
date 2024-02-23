@@ -8,6 +8,13 @@ public class BigNumArithmetic {
         return lineArray;
     }
 
+    public static void arrayToString(String[] a) {
+        for (int i = 0; i < a.length; i++) {
+            System.out.print(a[i] + " ");
+        }
+        System.out.print("=\n");
+    }
+
     /*
     public static LList stringToLList(String num) {
         LList l = new LList();
@@ -25,9 +32,9 @@ public class BigNumArithmetic {
                 Scanner scr = new Scanner(file);
                 while(scr.hasNextLine()) {
                     String line = scr.nextLine().replaceAll("\\s+", " ").replaceAll("^\\s+", "");		//replaces extra spaces and lines with 1 space or nothing
-                    String[] items = line.split(" ");
+                    String[] items = lineToArray(line);
                     if (line.length() > 0) {
-                        System.out.println(line);
+                        arrayToString(items);
                     }
                 }
 

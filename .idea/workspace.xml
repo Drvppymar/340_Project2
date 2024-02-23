@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e56fc03f-7650-4da3-8225-8e82690dc121" name="Changes" comment="Got rid of empty lines in file. Got rid of for loop.">
+    <list default="true" id="e56fc03f-7650-4da3-8225-8e82690dc121" name="Changes" comment="Added function to take the line string and convert it to an array. Also added the function to take the number and put it into a LList but commented it out because it has a compile issue.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigNumArithmetic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BigNumArithmetic.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BigNumArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigNumArithmetic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,19 +33,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -110,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708633987352</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added function to take the line string and convert it to an array. Also added the function to take the number and put it into a LList but commented it out because it has a compile issue.">
+      <created>1708653663316</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708653663316</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +166,7 @@
     <MESSAGE value="Got rid of all extra whitespaces except the empty lines when printing the file. Comments are what PC showed me but, I can't get it to work yet." />
     <MESSAGE value="Got rid of empty lines in file." />
     <MESSAGE value="Got rid of empty lines in file. Got rid of for loop." />
-    <option name="LAST_COMMIT_MESSAGE" value="Got rid of empty lines in file. Got rid of for loop." />
+    <MESSAGE value="Added function to take the line string and convert it to an array. Also added the function to take the number and put it into a LList but commented it out because it has a compile issue." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added function to take the line string and convert it to an array. Also added the function to take the number and put it into a LList but commented it out because it has a compile issue." />
   </component>
 </project>
