@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e56fc03f-7650-4da3-8225-8e82690dc121" name="Changes" comment="Went ahead and added the removal of leading zeroes.">
+    <list default="true" id="e56fc03f-7650-4da3-8225-8e82690dc121" name="Changes" comment="Added new files.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigNumArithmetic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BigNumArithmetic.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BigNumArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigNumArithmetic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test_AdditionInput1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test_AdditionInput1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,9 +15,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="JUnit4 Test Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -42,6 +45,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;
   }
@@ -130,7 +134,21 @@
       <option name="project" value="LOCAL" />
       <updated>1708656035895</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added new function to file.">
+      <created>1708700713208</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708700713208</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added new files.">
+      <created>1708700749088</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708700749088</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +201,8 @@
     <MESSAGE value="Added function to take the line string and convert it to an array. Also added the function to take the number and put it into a LList but commented it out because it has a compile issue." />
     <MESSAGE value="Added equal sign to each line of operation." />
     <MESSAGE value="Went ahead and added the removal of leading zeroes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Went ahead and added the removal of leading zeroes." />
+    <MESSAGE value="Added new function to file." />
+    <MESSAGE value="Added new files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new files." />
   </component>
 </project>

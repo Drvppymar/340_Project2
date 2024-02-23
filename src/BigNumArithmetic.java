@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class BigNumArithmetic {
 
-    public static String[] lineToArray(String line) {
+    public String[] lineToArray(String line) {
         String[] lineArray = line.split(" ");
         for (int i = 0; i < lineArray.length; i++) {
             lineArray[i] = lineArray[i].replaceAll("^0+(?!$)", "");
@@ -11,14 +11,14 @@ public class BigNumArithmetic {
         return lineArray;
     }
 
-    public static void arrayToString(String[] a) {
+    public void arrayToString(String[] a) {
         for (int i = 0; i < a.length; i++) {
             System.out.print(a[i] + " ");
         }
         System.out.print("=\n");
     }
     //insert/append in reverse order instead of additional function
-    public static String reverseString(String a) {
+    public String reverseString(String a) {
     	char ch;
     	String reversedString = "";
     	for(int i = 0; i < a.length(); i++) {
@@ -28,8 +28,7 @@ public class BigNumArithmetic {
         return reversedString;
     }
 
-
-    public static LList stringToLList(String num) {
+    public LList stringToLList(String num) {
         LList l = new LList();
         for (int i = 0; i < num.length(); i++) {
             l.append(num.charAt(i));
@@ -37,22 +36,21 @@ public class BigNumArithmetic {
         return l;
     }
 
-
-
-    public static String llistToString(LList l) {
+    public String llistToString(LList l) {
         String a = "";
+        //while ()
         return a;
     }
 
     public static String mathAddition(String a, String b) {
     	
         //convert each reverse string to linked list
-    	String newA = reverseString(a);
+    	//String newA = reverseString(a);
     	LList num1 = new LList();
-    	num1 = stringToLList(newA);
-    	String newB = reverseString(b);
+    	//num1 = stringToLList(newA);
+    	//String newB = reverseString(b);
     	LList num2 = new LList();
-    	num2 = stringToLList(newB);
+    	//num2 = stringToLList(newB);
     	int listALength = num1.length();
     	int listBLength = num2.length();
     	
@@ -82,8 +80,7 @@ public class BigNumArithmetic {
     	}
     	//add position[i] from each linked list + carry
     	//if at end of list and carry != 0, make a new node with value 1
-    	String c = "";
-        return c;
+    	return a;	//stub
     }
 
 	public static void main(String[] args) {
@@ -93,9 +90,10 @@ public class BigNumArithmetic {
                 Scanner scr = new Scanner(file);
                 while(scr.hasNextLine()) {
                     String line = scr.nextLine().replaceAll("\\s+", " ").replaceAll("^\\s+", "");		//replaces extra spaces and lines with 1 space or nothing
-                    String[] items = lineToArray(line);
+                    BigNumArithmetic b = new BigNumArithmetic();
+                    String[] items = b.lineToArray(line);
                     if (line.length() > 0) {
-                        arrayToString(items);
+                        b.arrayToString(items);
                     }
                 }
 
