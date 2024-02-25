@@ -79,10 +79,11 @@ public class BigNumArithmetic {
     	LList sum = new LList();
     	for (int i = 0; i<listALength; i++) {
     		numA.moveToPos(i);
-    		numA.getValue();
+    		int n = (int) numA.getValue();
     		numB.moveToPos(i);
-    		numB.getValue();
-    		int sumValue = carry; //+ numA + numB
+    		int m = (int) numB.getValue();
+    		int sumValue = carry + n + m;
+    		carry--;
     		if (sumValue>=10) { carry++; }
     		sum.append(sumValue-10);
     	}
@@ -90,7 +91,8 @@ public class BigNumArithmetic {
     	if(carry != 0) {
     		sum.append(1);
     	}
-    	return a;	//stub
+    	String finalSum = llistToString(sum);
+    	return finalSum;
     }
 
     public String stackRule(String[] line) {
