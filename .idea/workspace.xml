@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e56fc03f-7650-4da3-8225-8e82690dc121" name="Changes" comment="Added LStack class and added stack method.">
+    <list default="true" id="e56fc03f-7650-4da3-8225-8e82690dc121" name="Changes" comment="Completed stackRule function for now until addition method is complete to test.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BigNumArithmetic.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigNumArithmetic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BigNumArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigNumArithmetic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BigNumArithmeticTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LList.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/LList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/LStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Link.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Link.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/List.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +22,8 @@
       <list>
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -60,7 +67,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BigNumArithmeticTest.mathAddition">
     <configuration name="BigNumArithmeticTest.llistToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BigNumArithmetic" />
       <option name="PACKAGE_NAME" value="" />
@@ -71,8 +78,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BigNumArithmeticTest.mathAddition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BigNumArithmetic" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BigNumArithmeticTest" />
+      <option name="METHOD_NAME" value="mathAddition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BigNumArithmeticTest.mathAddition" />
         <item itemvalue="JUnit.BigNumArithmeticTest.llistToString" />
       </list>
     </recent_temporary>
@@ -191,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708706910326</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Completed stackRule function for now until addition method is complete to test.">
+      <created>1708714262413</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1708714262413</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,6 +274,23 @@
     <MESSAGE value="Added test file and, now you must make BigNumArithmetic object to call functions." />
     <MESSAGE value="Added llist to string method." />
     <MESSAGE value="Added LStack class and added stack method." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added LStack class and added stack method." />
+    <MESSAGE value="Completed stackRule function for now until addition method is complete to test." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed stackRule function for now until addition method is complete to test." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BigNumArithmetic.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BigNumArithmetic.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

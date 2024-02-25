@@ -62,36 +62,40 @@ public class BigNumArithmetic {
     	if(listALength>listBLength) {
     		int diff = listALength-listBLength;
     		for(int i = 0; i < diff; i++) {
-    			numB.moveToStart();
-    			numB.insert(0);
+    			numB.append(0);
     		}
     	}
-    	else if(listBLength>listALength) {
-    		int diff = listBLength-listALength;
-    		for(int i = 0; i<diff; i++) {
-    			numA.moveToStart();
-    			numA.insert(0);
+    	else if(listBLength > listALength) {
+    		int diff = listBLength - listALength;
+    		for(int i = 0; i < diff; i++) {
+    			numA.append(0);
     		}
     	}
     	
     	//initialize carry to equal 0
     	int carry = 0;
     	LList sum = new LList();
-    	for (int i = 0; i<listALength; i++) {
+    	for (int i = 0; i < listALength; i++) {
     		numA.moveToPos(i);
-    		int n = (int) numA.getValue();
+    		int n = Integer.parseInt(numA.getValue().toString());
     		numB.moveToPos(i);
-    		int m = (int) numB.getValue();
+    		int m = Integer.parseInt(numB.getValue().toString());
     		int sumValue = carry + n + m;
-    		carry--;
-    		if (sumValue>=10) { carry++; }
-    		sum.append(sumValue-10);
+            if (carry == 1) {
+                carry--;
+            }
+    		if (sumValue>=10) {
+                carry++;
+                sum.append(sumValue-10);
+            } else {
+                sum.append(sumValue);
+            }
     	}
     	//if at end of list and carry != 0, make a new node with value 1
     	if(carry != 0) {
     		sum.append(1);
     	}
-    	String finalSum = llistToString(sum);
+    	String finalSum = reverseString(llistToString(sum));
     	return finalSum;
     }
 
@@ -101,7 +105,7 @@ public class BigNumArithmetic {
             if(line[i].equals("+") != true) {
                 l.push(line[i]);
             } else if (line[i].equals("+") == true && l.length() >= 2) {
-                mathAddition(l.pop().toString(), l.pop().toString());
+                l.push(mathAddition(l.pop().toString(), l.pop().toString()));
             }
         }
         if (l.length() > 1 || l.length() < 1) {
@@ -121,6 +125,7 @@ public class BigNumArithmetic {
                     String[] items = b.lineToArray(line);
                     if (line.length() > 0) {
                         b.arrayToString(items);
+                        System.out.print(b.stackRule(items));
                     }
                 }
 
