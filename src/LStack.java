@@ -1,5 +1,5 @@
 // Linked stack implementation
-class LStack implements Stack {
+public class LStack implements Stack {
     private Link top;               // Pointer to first element
     private int size;               // Number of elements
 
