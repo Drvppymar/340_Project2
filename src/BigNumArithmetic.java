@@ -15,7 +15,7 @@ public class BigNumArithmetic {
         for (int i = 0; i < a.length; i++) {
             System.out.print(a[i] + " ");
         }
-        System.out.print("=\n");
+        System.out.print("= ");
     }
     
     //reverse the characters of a given string
@@ -102,7 +102,9 @@ public class BigNumArithmetic {
             if(line[i].equals("+") != true) {
                 l.push(line[i]);
             } else if (line[i].equals("+") == true && l.length() >= 2) {
-                l.push(mathAddition(l.pop().toString(), l.pop().toString()));
+                String one = l.pop().toString();
+                String two = l.pop().toString();
+                l.push(mathAddition(two, one));
             }
         }
         if (l.length() > 1 || l.length() < 1) {
@@ -122,7 +124,8 @@ public class BigNumArithmetic {
                     String[] items = b.lineToArray(line);
                     if (line.length() > 0) {
                         b.arrayToString(items);
-                        System.out.print(b.stackRule(items));
+                        String solution = b.stackRule(items);
+                        System.out.println(solution);
                     }
                 }
 
