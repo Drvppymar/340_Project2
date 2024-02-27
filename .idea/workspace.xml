@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e56fc03f-7650-4da3-8225-8e82690dc121" name="Changes" comment="Made changes to addition function and it now works completely. Also had to delete test file but, remade it.">
+    <list default="true" id="e56fc03f-7650-4da3-8225-8e82690dc121" name="Changes" comment="Made a change to stackRule function. Program now completely works with addition and just needs comments for submission.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BigNumArithmetic.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigNumArithmetic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BigNumArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigNumArithmetic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BigNumArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigNumArithmeticTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/LStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test_AdditionInput1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test_AdditionInput1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708884616415</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Made a change to stackRule function. Program now completely works with addition and just needs comments for submission.">
+      <created>1708964389338</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1708964389339</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,17 +294,7 @@
     <MESSAGE value="Added LStack class and added stack method." />
     <MESSAGE value="Completed stackRule function for now until addition method is complete to test." />
     <MESSAGE value="Made changes to addition function and it now works completely. Also had to delete test file but, remade it." />
-    <option name="LAST_COMMIT_MESSAGE" value="Made changes to addition function and it now works completely. Also had to delete test file but, remade it." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BigNumArithmetic.java</url>
-          <line>102</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Made a change to stackRule function. Program now completely works with addition and just needs comments for submission." />
+    <option name="LAST_COMMIT_MESSAGE" value="Made a change to stackRule function. Program now completely works with addition and just needs comments for submission." />
   </component>
 </project>
