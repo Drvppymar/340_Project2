@@ -17,13 +17,14 @@ public class BigNumArithmetic {
         }
         System.out.print("=\n");
     }
-    //insert/append in reverse order instead of additional function
+    
+    //reverse the characters of a given string
     public String reverseString(String a) {
     	char ch;
-    	String reversedString = "";
+    	String reversedString = "";					//initialize an empty string to create reversed string inside
     	for(int i = 0; i < a.length(); i++) {
-    		ch = a.charAt(i);
-    		reversedString = ch + reversedString;
+    		ch = a.charAt(i);						//get character at a certain position
+    		reversedString = ch + reversedString;	// add character to the reversed string
     	}
         return reversedString;
     }
@@ -45,58 +46,54 @@ public class BigNumArithmetic {
         return a;
     }
 
-
+    //adding and returning the sum of two numbers in the form of a string
     public String mathAddition(String a, String b) {
+    	String newA = reverseString(a);				//reverse the first string
+    	LList numA = new LList();					//instantiate an empty linked list for the first string
+    	numA = stringToLList(newA);					//convert the string to a linked list and set that equal to the empty linked list numA
+    	String newB = reverseString(b);				//reverse the second string
+    	LList numB = new LList();					//instantiate an empty linked list for the second string
+    	numB = stringToLList(newB);					//convert the string to a linked list and set that equal to the empty linked list numB
+    	int listALength = numA.length();			//get the length of the first linked list
+    	int listBLength = numB.length();			//get the length of the second linked list
     	
-        //convert each reverse string to linked list
-    	String newA = reverseString(a);
-    	LList numA = new LList();
-    	numA = stringToLList(newA);
-    	String newB = reverseString(b);
-    	LList numB = new LList();
-    	numB = stringToLList(newB);
-    	int listALength = numA.length();
-    	int listBLength = numB.length();
-    	
-    	//find difference between length of each linked list, add zeroes to front of list where needed
-    	if(listALength>listBLength) {
-    		int diff = listALength-listBLength;
-    		for(int i = 0; i < diff; i++) {
+    	if(listALength>listBLength) {				
+    		int diff = listALength-listBLength;		//find difference between listA length and listB length
+    		for(int i = 0; i < diff; i++) {			//append 0's to listB until the lists are equal in length
     			numB.append(0);
     		}
     	}
     	else if(listBLength > listALength) {
-    		int diff = listBLength - listALength;
-    		for(int i = 0; i < diff; i++) {
+    		int diff = listBLength - listALength;	//find difference between listB length and listA length
+    		for(int i = 0; i < diff; i++) {			//append 0's to listA until the lists are equal in length
     			numA.append(0);
     		}
     	}
     	
-    	//initialize carry to equal 0
-    	int carry = 0;
-    	LList sum = new LList();
-    	for (int i = 0; i < listALength; i++) {
-    		numA.moveToPos(i);
-    		int n = Integer.parseInt(numA.getValue().toString());
-    		numB.moveToPos(i);
-    		int m = Integer.parseInt(numB.getValue().toString());
-    		int sumValue = carry + n + m;
-            if (carry == 1) {
-                carry--;
+    	int carry = 0;								//initialize carry value to equal 0
+    	LList sum = new LList();					//initialize a new linked list that holds the sum of listA and listB
+    	for (int i = 0; i < listALength; i++) {		//iterate through each value of lisA and listB
+    		numA.moveToPos(i);						//move current position
+    		int n = Integer.parseInt(numA.getValue().toString());		//convert string at current position to an integer
+    		numB.moveToPos(i);						//move current position
+    		int m = Integer.parseInt(numB.getValue().toString());		//convert string at current position to an integer
+    		int sumValue = carry + n + m;			//add integer n and m with carry value
+            if (carry == 1) {						//if carry was added to previous sum value
+                carry--;							//subtract so carry=0
             }
-    		if (sumValue>=10) {
-                carry++;
-                sum.append(sumValue-10);
+    		if (sumValue>=10) {						//if sum of n, m, and carry is greater than or equal to 10
+                carry++;							//add carry value for next operation
+                sum.append(sumValue-10);			//add sumValue-10 to sum linked list
             } else {
-                sum.append(sumValue);
+                sum.append(sumValue);				//add sumValue to sum linked list
             }
     	}
-    	//if at end of list and carry != 0, make a new node with value 1
-    	if(carry != 0) {
-    		sum.append(1);
+    	
+    	if(carry != 0) {							//if at end of list and carry != 0
+    		sum.append(1);							//add a new node to sum linked list with value 1
     	}
-    	String finalSum = reverseString(llistToString(sum));
-    	return finalSum;
+    	String finalSum = reverseString(llistToString(sum));			//convert sum linked list to a string and reverse it
+    	return finalSum;							//return the sum of numA and numB in the form of a string
     }
 
     public String stackRule(String[] line) {
