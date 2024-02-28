@@ -1,11 +1,11 @@
 import static org.junit.jupiter.api.Assertions.*;
 
-class BigNumArithmeticTest {
+public class BigNumArithmeticTest {
 
     /*Test to make sure that the reverse string method returns the string in reverse order.
      */
     @org.junit.jupiter.api.Test
-    void reverseString() {
+    public void reverseString() {
         BigNumArithmetic b = new BigNumArithmetic();
         String s = "83947";
         assertEquals("74938", b.reverseString("83947"));
@@ -15,7 +15,7 @@ class BigNumArithmeticTest {
     equaled each other.
      */
     @org.junit.jupiter.api.Test
-    void stringToLList() {
+    public void stringToLList() {
         BigNumArithmetic b = new BigNumArithmetic();
         String s = "235";
         LList l = new LList();
@@ -29,7 +29,7 @@ class BigNumArithmeticTest {
     the function returned what the string value should be.
      */
     @org.junit.jupiter.api.Test
-    void llistToString() {
+    public void llistToString() {
         LList l = new LList();
         BigNumArithmetic b = new BigNumArithmetic();
         l.append("2");
@@ -42,16 +42,17 @@ class BigNumArithmeticTest {
     correct.
      */
     @org.junit.jupiter.api.Test
-    void mathAddition() {
+    public void mathAddition() {
         BigNumArithmetic b = new BigNumArithmetic();
-        assertEquals("1234", b.mathAddition("1234", "0"));
+        assertEquals("86886558560174", b.mathAddition("7570087", "86886550990087"));
+        assertEquals("86886558560174", b.mathAddition("86886550990087", "7570087"));
     }
 
     /*Test to make sure that the stackRule method implements the use of the stack correctly and can take an array of operands and
     operators and perform the expression. Should pop off the solution of the expression off the stack.
      */
     @org.junit.jupiter.api.Test
-    void stackRule() {
+    public void stackRule() {
         BigNumArithmetic b = new BigNumArithmetic();
         String[] line = new String[]{"1234", "0", "+"};
         assertEquals("1234", b.stackRule(line));

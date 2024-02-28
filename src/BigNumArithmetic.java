@@ -91,7 +91,7 @@ public class BigNumArithmetic {
     	
     	int carry = 0;								//initialize carry value to equal 0
     	LList sum = new LList();					//initialize a new linked list that holds the sum of listA and listB
-    	for (int i = 0; i < listALength; i++) {		//iterate through each value of lisA and listB
+    	for (int i = 0; i < numA.length(); i++) {		//iterate through each value of lisA and listB
     		numA.moveToPos(i);						//move current position
     		int n = Integer.parseInt(numA.getValue().toString());		//convert string at current position to an integer
     		numB.moveToPos(i);						//move current position
