@@ -1,36 +1,58 @@
 import static org.junit.jupiter.api.Assertions.*;
 
-class BigNumArithmeticTest {
+public class BigNumArithmeticTest {
 
+    /*Test to make sure that the reverse string method returns the string in reverse order.
+     */
     @org.junit.jupiter.api.Test
-    void lineToArray() {
-
-    }
-
-    @org.junit.jupiter.api.Test
-    void arrayToString() {
-    }
-
-    @org.junit.jupiter.api.Test
-    void reverseString() {
-    }
-
-    @org.junit.jupiter.api.Test
-    void stringToLList() {
-    }
-
-    @org.junit.jupiter.api.Test
-    void llistToString() {
-    }
-
-    @org.junit.jupiter.api.Test
-    void mathAddition() {
+    public void reverseString() {
         BigNumArithmetic b = new BigNumArithmetic();
-        assertEquals("1234", b.mathAddition("1234", "0"));
+        String s = "83947";
+        assertEquals("74938", b.reverseString("83947"));
     }
 
+    /*Test to make sure that stringToLList method returns a valid LList from the string passed in. Made a second LList to make sure that both of their first nodes
+    equaled each other.
+     */
     @org.junit.jupiter.api.Test
-    void stackRule() {
+    public void stringToLList() {
+        BigNumArithmetic b = new BigNumArithmetic();
+        String s = "235";
+        LList l = new LList();
+        l.append("2");
+        l.append("3");
+        l.append("5");
+        assertEquals(l.getValue(), b.stringToLList("235").getValue().toString());
+    }
+
+    /*Test to make sure that llistToString method returns the correct string. Appended items to a linked list and checked if
+    the function returned what the string value should be.
+     */
+    @org.junit.jupiter.api.Test
+    public void llistToString() {
+        LList l = new LList();
+        BigNumArithmetic b = new BigNumArithmetic();
+        l.append("2");
+        l.append("3");
+        l.append("5");
+        assertEquals("235", b.llistToString(l));
+    }
+
+    /*Test to make sure the mathAddition function works. Added two numbers together aas strings and made sure the sum was
+    correct.
+     */
+    @org.junit.jupiter.api.Test
+    public void mathAddition() {
+        BigNumArithmetic b = new BigNumArithmetic();
+        assertEquals("86886558560174", b.mathAddition("7570087", "86886550990087"));
+        assertEquals("86886558560174", b.mathAddition("86886550990087", "7570087"));
+    }
+
+    /*Test to make sure that the stackRule method implements the use of the stack correctly and can take an array of operands and
+    operators and perform the expression. Should pop off the solution of the expression off the stack.
+     */
+    @org.junit.jupiter.api.Test
+    public void stackRule() {
         BigNumArithmetic b = new BigNumArithmetic();
         String[] line = new String[]{"1234", "0", "+"};
         assertEquals("1234", b.stackRule(line));
