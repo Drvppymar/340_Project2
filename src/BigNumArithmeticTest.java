@@ -35,4 +35,10 @@ class BigNumArithmeticTest {
         String[] line = new String[]{"1234", "0", "+"};
         assertEquals("1234", b.stackRule(line));
     }
+    
+    @org.junit.jupiter.api.Test
+    void mathSubtraction() {
+    	BigNumArithmetic b = new BigNumArithmetic();
+    	assertEquals("", b.mathSubtraction(null, null));
+    }
 }
