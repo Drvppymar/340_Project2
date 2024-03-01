@@ -38,7 +38,7 @@ public class BigNumArithmeticTest {
         assertEquals("235", b.llistToString(l));
     }
 
-    /*Test to make sure the mathAddition function works. Added two numbers together aas strings and made sure the sum was
+    /*Test to make sure the mathAddition function works. Added two numbers together as strings and made sure the sum was
     correct.
      */
     @org.junit.jupiter.api.Test
@@ -56,5 +56,20 @@ public class BigNumArithmeticTest {
         BigNumArithmetic b = new BigNumArithmetic();
         String[] line = new String[]{"1234", "0", "+"};
         assertEquals("1234", b.stackRule(line));
+    }
+
+    /*Test to make sure the mathMultiplication function works. Multiplied two numbers together as strings and made sure the product was
+    correct.
+     */
+    @org.junit.jupiter.api.Test
+    public void mathMultiplication() {
+        BigNumArithmetic b = new BigNumArithmetic();
+        assertEquals("36400", b.mathMultiplication("728", "50"));
+        assertEquals("46200", b.mathMultiplication("825", "56"));
+        assertEquals("92817765", b.mathMultiplication("24165", "3841"));
+        assertEquals("6900025840600136", b.mathMultiplication("786876886", "8768876"));
+        assertEquals("8588447574862071525", b.mathMultiplication("958759095", "8957878595"));
+        assertEquals("4", b.mathMultiplication("2", "2"));
+        assertEquals("0", b.mathMultiplication("0", "0"));
     }
 }

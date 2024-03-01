@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e56fc03f-7650-4da3-8225-8e82690dc121" name="Changes" comment="Finished test cases. Ready to turn in.">
+    <list default="true" id="e56fc03f-7650-4da3-8225-8e82690dc121" name="Changes" comment="Fixed mathAddition function. Update test file as well.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BigNumArithmetic.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigNumArithmetic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BigNumArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigNumArithmetic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BigNumArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigNumArithmeticTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/LStack.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BigNumArithmeticTest.mathAddition">
+  <component name="RunManager" selected="JUnit.BigNumArithmeticTest.mathMultiplication">
     <configuration name="BigNumArithmeticTest.lineToArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BigNumArithmetic" />
       <option name="PACKAGE_NAME" value="" />
@@ -74,21 +73,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BigNumArithmeticTest.llistToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BigNumArithmetic" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BigNumArithmeticTest" />
-      <option name="METHOD_NAME" value="llistToString" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BigNumArithmeticTest.mathAddition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BigNumArithmetic" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BigNumArithmeticTest" />
       <option name="METHOD_NAME" value="mathAddition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BigNumArithmeticTest.mathMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BigNumArithmetic" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BigNumArithmeticTest" />
+      <option name="METHOD_NAME" value="mathMultiplication" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BigNumArithmeticTest.mathMultiplication" />
         <item itemvalue="JUnit.BigNumArithmeticTest.mathAddition" />
         <item itemvalue="JUnit.BigNumArithmeticTest.lineToArray" />
         <item itemvalue="JUnit.BigNumArithmeticTest.reverseString" />
         <item itemvalue="JUnit.BigNumArithmeticTest.stringToLList" />
-        <item itemvalue="JUnit.BigNumArithmeticTest.llistToString" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709046601785</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Fixed mathAddition function. Update test file as well.">
+      <created>1709133641837</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1709133641837</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -336,21 +342,7 @@
     <MESSAGE value="Made a change to stackRule function. Program now completely works with addition and just needs comments for submission." />
     <MESSAGE value="Finished rest of comments, just have to add a few more test cases to turn in." />
     <MESSAGE value="Finished test cases. Ready to turn in." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished test cases. Ready to turn in." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/BigNumArithmetic.java</url>
-          <line>68</line>
-          <properties class="BigNumArithmetic" method="mathAddition">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Fixed mathAddition function. Update test file as well." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed mathAddition function. Update test file as well." />
   </component>
 </project>

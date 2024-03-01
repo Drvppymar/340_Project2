@@ -115,6 +115,108 @@ public class BigNumArithmetic {
     	return finalSum;							//return the sum of numA and numB in the form of a string
     }
 
+    public String mathMultiplication(String a, String b) {
+        //Convert both input strings into reverse
+        String numA = reverseString(a);
+        String numB = reverseString(b);
+        //Convert both reversed strings into linked lists
+        LList listA = stringToLList(numA);
+        LList listB = stringToLList(numB);
+        //Get the length of both linked lists
+        int aLength = listA.length();
+        int bLength = listB.length();
+        //Create a stack object
+        LStack l = new LStack();
+        //Create a solution linked list to store solution of one digit multiplied by another number
+        LList solution = new LList();
+        //Initialize sum variable which we will return when done
+        String sum = "";
+        //Initialize carry variable
+        int carry = 0;
+        //Check to see if first string is bigger then the second
+        if (aLength > bLength) {
+            //If so we enter a nested for loop, looping through bigger number while multiplying it by the individual digit in smaller number
+            for (int i = 0; i < bLength; i++) {
+                //Move to position in smaller number
+                listB.moveToPos(i);
+                if (i > 0) {
+                    //If we ever shuft to another digit in smaller number, we have to add zeros the solution linked list as we are shifting
+                    for (int c = 0; c < i; c++) {
+                        solution.append(0);
+                    }
+                }
+                //Looping through every digit in larger number while we stay at one digit in smaller number until we reach the end
+                for (int j = 0; j < aLength; j++) {
+                    //Move to position in larger number
+                    listA.moveToPos(j);
+                    //Get the int value from both numbers at the positions
+                    int n = Integer.parseInt(listA.getValue().toString());
+                    int m = Integer.parseInt(listB.getValue().toString());
+                    //Value equals both digits multiplied + if we have a carry, will be 0 if we don't
+                    int value = n * m + carry;
+                    if (value >= 10) {
+                        //If the value is ever greater than or equal to 10, the carry equals the value divided by 10
+                        carry = value / 10;
+                        //Then the value to be appended to the linked list is value modulo 10
+                        solution.append(value % 10);
+                    } else {
+                        //If the value is not greater than or equal to 10 then we just append the value and make sure carry is 0
+                        solution.append(value);
+                        carry = 0;
+                    }
+                }
+                //If at the end of the bigger number there is still a carry, append the carry and then make it 0
+                if (carry != 0) {
+                    solution.append(carry);
+                    carry = 0;
+                }
+                //Lastly, we can push the solution onto the stack, not in reverse, so all the products can be added together later
+                String sol = reverseString(llistToString(solution));
+                l.push(sol);
+                //Clear solution linked list so we can move to next digit
+                solution.clear();
+            }
+        //Does the same exact thing as the nested for loop above, just for if the b string is larger or if they have the same length.
+        } else {
+            for (int i = 0; i < aLength; i++) {
+                listA.moveToPos(i);
+                if (i > 0) {
+                    for (int c = 0; c < i; c++) {
+                        solution.append(0);
+                    }
+                }
+                for (int j = 0; j < bLength; j++) {
+                    listB.moveToPos(j);
+                    int n = Integer.parseInt(listA.getValue().toString());
+                    int m = Integer.parseInt(listB.getValue().toString());
+                    int value = n * m + carry;
+                    if (value >= 10) {
+                        carry = value / 10;
+                        solution.append(value % 10);
+                    } else {
+                        solution.append(value);
+                        carry = 0;
+                    }
+                }
+                if (carry != 0) {
+                    solution.append(carry);
+                    carry = 0;
+                }
+                String sol = reverseString(llistToString(solution));
+                l.push(sol);
+                solution.clear();
+            }
+        }
+        //Now, while the stack has more than one product on it, we add all of them up, popping two at a time and pushing the sum of the mathAddition function onto the stack
+        while (l.length() > 1) {
+            l.push(mathAddition(l.pop().toString(), l.pop().toString()));
+        }
+        //Lastly, the answer will be the only number left on the stack, so we pop it and save it to the sum variable
+        sum = l.pop().toString();
+        //Return the answer
+        return sum;
+    }
+
     //Function to have rules for popping and pushing on stack
     public String stackRule(String[] line) {
         //Create LStack object
