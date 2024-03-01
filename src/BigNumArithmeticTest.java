@@ -57,4 +57,17 @@ public class BigNumArithmeticTest {
         String[] line = new String[]{"1234", "0", "+"};
         assertEquals("1234", b.stackRule(line));
     }
+
+     /*Test to make sure the mathMultiplication function works. Multiplied two numbers together as strings and made sure the product was
+    correct.
+     */
+    @org.junit.jupiter.api.Test
+    public void mathMultiplication() {
+        BigNumArithmetic b = new BigNumArithmetic();
+        assertEquals("4", b.mathMultiplication("2", "2"));
+        assertEquals("0", b.mathMultiplication("0", "0"));
+        assertEquals("8182278", b.mathMultiplication("8541", "958"));
+        assertEquals("15326662543796", b.mathMultiplication("384634", "39847394"));
+        assertEquals("8050996830848287500", b.mathMultiplication("948459475", "8488498500"));
+    }
 }
