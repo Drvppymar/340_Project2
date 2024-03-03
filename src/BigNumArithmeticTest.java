@@ -79,7 +79,7 @@ public class BigNumArithmeticTest {
         BigNumArithmetic b = new BigNumArithmetic();
         assertEquals("8902892", b.mathSubtraction("9879867", "976975"));
         assertEquals("8902892", b.mathSubtraction("976975", "9879867"));
-        assertEquals("0", b.mathSubtraction("2", "2"));
+        assertEquals("0", b.mathSubtraction("35", "35"));
         assertEquals("342111292", b.mathSubtraction("987896970", "645785678"));
     }
 }

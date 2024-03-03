@@ -114,6 +114,20 @@ public class BigNumArithmetic {
     	String finalSum = reverseString(llistToString(sum));			//convert sum linked list to a string and reverse it
     	return finalSum;							//return the sum of numA and numB in the form of a string
     }
+
+    //Function to see which number is bigger if they have the same length
+    public boolean greaterThan(String a, String b) {
+        for (int i = 0; i < a.length(); i++) {
+            String c = String.valueOf(a.charAt(i));
+            String d = String.valueOf(b.charAt(i));
+            if (Integer.parseInt(c) > Integer.parseInt(d)) {
+                return true;
+            } else if (Integer.parseInt(d) > Integer.parseInt(c)) {
+                return false;
+            }
+        }
+        return false;
+    }
     
     public String mathSubtraction(String a, String b) {
     	String newA = reverseString(a);				//reverse the first string
@@ -126,7 +140,7 @@ public class BigNumArithmetic {
     	int listBLength = numB.length();			//get the length of the second linked list
     	int carry = 0;
 		LList sum = new LList();
-    	if(listALength >= listBLength) {
+    	if(listALength > listBLength) {
     		int diff = listALength - listBLength;
     		for(int i =0; i < diff;i++) {
     			numB.append(0);
@@ -146,8 +160,7 @@ public class BigNumArithmetic {
     			}
     			sum.append(sumValue);
     		}
-    	}
-    	if(listBLength > listALength) {
+    	} else if(listBLength > listALength) {
     		int diff = listBLength - listALength;
     		for(int i =0; i < diff; i++) {
                 numA.append(0);
@@ -167,7 +180,39 @@ public class BigNumArithmetic {
     			}
     			sum.append(sumValue);
     		}
-    	}
+    	} else if (greaterThan(a, b) == true) {
+            for(int i = 0; i < listALength; i++) {
+                numA.moveToPos(i);
+                int n = Integer.parseInt(numA.getValue().toString());
+                numB.moveToPos(i);
+                int m = Integer.parseInt(numB.getValue().toString());
+                int sumValue = (carry + n) - m;
+                if(carry == -1) {
+                    carry++;
+                }
+                if(sumValue < 0) {
+                    carry--;
+                    sumValue = sumValue + 10;
+                }
+                sum.append(sumValue);
+            }
+        } else if (greaterThan(a, b) != true) {
+            for(int i = 0; i < listBLength; i++) {
+                numA.moveToPos(i);
+                int n = Integer.parseInt(numA.getValue().toString());
+                numB.moveToPos(i);
+                int m = Integer.parseInt(numB.getValue().toString());
+                int sumValue = (carry + m) - n;
+                if(carry == -1) {
+                    carry++;
+                }
+                if(sumValue < 0) {
+                    carry--;
+                    sumValue = sumValue + 10;
+                }
+                sum.append(sumValue);
+            }
+        }
         String finalSum = reverseString(llistToString(sum)).replaceAll("^0+(?!$)", "");
         return finalSum;
     }

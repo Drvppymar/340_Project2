@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e56fc03f-7650-4da3-8225-8e82690dc121" name="Changes" comment="The multiplication method works completely as of right now until professor lets us know otherwise.">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_23_24,_11_21 AM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_23_24__11_21AM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_25_24,_12_20 PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_25_24__12_20PM__Changes_.xml" beforeDir="false" />
+    <list default="true" id="e56fc03f-7650-4da3-8225-8e82690dc121" name="Changes" comment="The subtraction method works completely and added more test cases and edited test input file.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BigNumArithmetic.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigNumArithmetic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BigNumArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigNumArithmetic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BigNumArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigNumArithmeticTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test_AdditionInput1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test_AdditionInput1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709320308278</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="The subtraction method works completely and added more test cases and edited test input file.">
+      <created>1709494668374</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1709494668374</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -363,7 +364,8 @@
     <MESSAGE value="Finished test cases. Ready to turn in." />
     <MESSAGE value="Fixed mathAddition function. Update test file as well." />
     <MESSAGE value="The multiplication method works completely as of right now until professor lets us know otherwise." />
-    <option name="LAST_COMMIT_MESSAGE" value="The multiplication method works completely as of right now until professor lets us know otherwise." />
+    <MESSAGE value="The subtraction method works completely and added more test cases and edited test input file." />
+    <option name="LAST_COMMIT_MESSAGE" value="The subtraction method works completely and added more test cases and edited test input file." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BigNumArithmetic$BigNumArithmeticTest_mathMultiplication.ic" NAME="BigNumArithmeticTest.mathMultiplication Coverage Results" MODIFIED="1709321071675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
