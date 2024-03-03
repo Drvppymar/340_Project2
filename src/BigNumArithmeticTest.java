@@ -70,4 +70,16 @@ public class BigNumArithmeticTest {
         assertEquals("15326662543796", b.mathMultiplication("384634", "39847394"));
         assertEquals("8050996830848287500", b.mathMultiplication("948459475", "8488498500"));
     }
+
+    /*Test to make sure the mathSubtraction function works. Subtract two numbers as strings and made sure the answer was
+    correct.
+     */
+    @org.junit.jupiter.api.Test
+    public void mathSubtraction() {
+        BigNumArithmetic b = new BigNumArithmetic();
+        assertEquals("8902892", b.mathSubtraction("9879867", "976975"));
+        assertEquals("8902892", b.mathSubtraction("976975", "9879867"));
+        assertEquals("0", b.mathSubtraction("2", "2"));
+        assertEquals("342111292", b.mathSubtraction("987896970", "645785678"));
+    }
 }

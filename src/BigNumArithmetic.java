@@ -124,52 +124,52 @@ public class BigNumArithmetic {
     	numB = stringToLList(newB);					//convert the string to a linked list and set that equal to the empty linked list numB
     	int listALength = numA.length();			//get the length of the first linked list
     	int listBLength = numB.length();			//get the length of the second linked list
-    	int carry =0;
+    	int carry = 0;
 		LList sum = new LList();
-    	if(listALength>listBLength) {
-    		int diff = listALength-listBLength;
-    		for(int i =0; i<diff;i++) {
+    	if(listALength >= listBLength) {
+    		int diff = listALength - listBLength;
+    		for(int i =0; i < diff;i++) {
     			numB.append(0);
     		}
-    		for(int i = 0; i<listALength; i++) {
+    		for(int i = 0; i < listALength; i++) {
     			numA.moveToPos(i);
     			int n = Integer.parseInt(numA.getValue().toString());
     			numB.moveToPos(i);
     			int m = Integer.parseInt(numB.getValue().toString());
-    			int sumValue = (carry+n)-m;
+    			int sumValue = (carry + n) - m;
     			if(carry == -1) {
     				carry++;
     			}
-    			if(sumValue<0) {
+    			if(sumValue < 0) {
     				carry--;
-    				sumValue = sumValue+10;
+    				sumValue = sumValue + 10;
     			}
     			sum.append(sumValue);
     		}
     	}
-    	if(listBLength>listALength) {
-    		int diff = listBLength-listALength;
-    		for(int i =0; i<diff; i++) {
-    			numA.append(0);
-    		}
-    		for(int i = 0; i<listALength; i++) {
+    	if(listBLength > listALength) {
+    		int diff = listBLength - listALength;
+    		for(int i =0; i < diff; i++) {
+                numA.append(0);
+            }
+    		for(int i = 0; i < listBLength; i++) {
     			numA.moveToPos(i);
     			int n = Integer.parseInt(numA.getValue().toString());
     			numB.moveToPos(i);
     			int m = Integer.parseInt(numB.getValue().toString());
-    			int sumValue = (carry+m)-n;
+    			int sumValue = (carry + m) - n;
     			if(carry == -1) {
     				carry++;
     			}
-    			if(sumValue<0) {
+    			if(sumValue < 0) {
     				carry--;
-    				sumValue = sumValue+10;
+    				sumValue = sumValue + 10;
     			}
     			sum.append(sumValue);
     		}
     	}
-    	String finalSum = reverseString(llistToString(sum));
-    	return finalSum;
+        String finalSum = reverseString(llistToString(sum)).replaceAll("^0+(?!$)", "");
+        return finalSum;
     }
 
     public String mathMultiplication(String a, String b) {
@@ -281,7 +281,7 @@ public class BigNumArithmetic {
         //Loop through line array
         for (int i = 0; i < line.length; i++) {
             //Check if the item we see is not the + or - operator
-            if(line[i].equals("+") != true && line[i].equals("-") != true) {
+            if(line[i].equals("+") != true && line[i].equals("-") != true && line[i].equals("*") != true) {
                 //If not, we push the item onto the stack as it is a number
                 l.push(line[i]);
             } else if (line[i].equals("+") == true && l.length() >= 2) { //Else, check if it is the + operator and that there is at least two numbers to pop off the stack
@@ -291,10 +291,18 @@ public class BigNumArithmetic {
                 //Passed them into the mathAddition function and push the result onto the stack
                 l.push(mathAddition(two, one));
             }
+            //Else, check if it is the - operator and that there is at least two numbers to pop off the stack
             else if (line[i].equals("-") == true && l.length() >= 2) {
             	String one = l.pop().toString();
             	String two = l.pop().toString();
+                //Passed them into the mathSubtraction function and push the result onto the stack
             	l.push(mathSubtraction(two, one));
+                //Else, check if it is the * operator and that there is at least two numbers to pop off the stack
+            } else if (line[i].equals("*") == true && l.length() >= 2) {
+                String one = l.pop().toString();
+                String two = l.pop().toString();
+                //Passed them into the mathMultiplication function and push the result onto the stack
+                l.push(mathMultiplication(two, one));
             }
         }
         //If there isn't exactly one number left at the end of the conditions, then invalid expression return nothing

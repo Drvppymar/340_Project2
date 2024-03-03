@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56fc03f-7650-4da3-8225-8e82690dc121" name="Changes" comment="The multiplication method works completely as of right now until professor lets us know otherwise.">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_23_24,_11_21 AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_23_24__11_21AM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_25_24,_12_20 PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_25_24__12_20PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BigNumArithmetic.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigNumArithmetic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BigNumArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigNumArithmetic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BigNumArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigNumArithmeticTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test_AdditionInput1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test_AdditionInput1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +67,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BigNumArithmeticTest.mathMultiplication">
+  <component name="RunManager" selected="JUnit.BigNumArithmeticTest.mathSubtraction">
     <configuration name="BigNumArithmeticTest.lineToArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BigNumArithmetic" />
       <option name="PACKAGE_NAME" value="" />
@@ -90,6 +98,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BigNumArithmeticTest.mathSubtraction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BigNumArithmetic" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BigNumArithmeticTest" />
+      <option name="METHOD_NAME" value="mathSubtraction" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BigNumArithmeticTest.reverseString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BigNumArithmetic" />
       <option name="PACKAGE_NAME" value="" />
@@ -100,23 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BigNumArithmeticTest.stringToLList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BigNumArithmetic" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BigNumArithmeticTest" />
-      <option name="METHOD_NAME" value="stringToLList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BigNumArithmeticTest.mathSubtraction" />
         <item itemvalue="JUnit.BigNumArithmeticTest.mathMultiplication" />
         <item itemvalue="JUnit.BigNumArithmeticTest.mathAddition" />
         <item itemvalue="JUnit.BigNumArithmeticTest.lineToArray" />
         <item itemvalue="JUnit.BigNumArithmeticTest.reverseString" />
-        <item itemvalue="JUnit.BigNumArithmeticTest.stringToLList" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709319722489</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="The multiplication method works completely as of right now until professor lets us know otherwise.">
+      <created>1709320308278</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1709320308278</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -349,5 +364,8 @@
     <MESSAGE value="Fixed mathAddition function. Update test file as well." />
     <MESSAGE value="The multiplication method works completely as of right now until professor lets us know otherwise." />
     <option name="LAST_COMMIT_MESSAGE" value="The multiplication method works completely as of right now until professor lets us know otherwise." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BigNumArithmetic$BigNumArithmeticTest_mathMultiplication.ic" NAME="BigNumArithmeticTest.mathMultiplication Coverage Results" MODIFIED="1709321071675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
