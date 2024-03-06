@@ -378,7 +378,7 @@ public class BigNumArithmetic {
                         //Prints the line without extra spaces, leading zeroes and an equal sign
                         b.arrayToString(items);
                         //Get the solution of the line expression by saving the stackRule return into a string
-                        String solution = b.stackRule(items);
+                        String solution = b.stackRule(items).replaceAll("^0+(?!$)", "");
                         // Print out the solution onto the same line
                         System.out.println(solution);
                     }
