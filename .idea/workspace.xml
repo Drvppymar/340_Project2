@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e56fc03f-7650-4da3-8225-8e82690dc121" name="Changes" comment="Edited subtraction method to check to see what number is greater if they are the same length." />
+    <list default="true" id="e56fc03f-7650-4da3-8225-8e82690dc121" name="Changes" comment="Added line of code getting rid of zeroes when result is produced but, before it is printed.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BigNumArithmetic.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigNumArithmetic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BigNumArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigNumArithmetic.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -302,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709498030884</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Added line of code getting rid of zeroes when result is produced but, before it is printed.">
+      <created>1709740036689</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1709740036689</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -369,7 +380,8 @@
     <MESSAGE value="The multiplication method works completely as of right now until professor lets us know otherwise." />
     <MESSAGE value="The subtraction method works completely and added more test cases and edited test input file." />
     <MESSAGE value="Edited subtraction method to check to see what number is greater if they are the same length." />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited subtraction method to check to see what number is greater if they are the same length." />
+    <MESSAGE value="Added line of code getting rid of zeroes when result is produced but, before it is printed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added line of code getting rid of zeroes when result is produced but, before it is printed." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BigNumArithmetic$BigNumArithmeticTest_mathMultiplication.ic" NAME="BigNumArithmeticTest.mathMultiplication Coverage Results" MODIFIED="1709321071675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

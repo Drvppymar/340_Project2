@@ -23,7 +23,7 @@ public class BigNumArithmetic {
             System.out.print(a[i] + " ");
         }
         //Print out equal sign at end on same line.
-        System.out.print("= ");
+        System.out.print("=");
     }
     
     //reverse the characters of a given string
@@ -352,7 +352,7 @@ public class BigNumArithmetic {
         }
         //If there isn't exactly one number left at the end of the conditions, then invalid expression return nothing
         if (l.length() > 1 || l.length() < 1) {
-            return "";
+            return null;
         }
         //Else return the solution of the expression.
         return l.pop().toString();
@@ -378,9 +378,13 @@ public class BigNumArithmetic {
                         //Prints the line without extra spaces, leading zeroes and an equal sign
                         b.arrayToString(items);
                         //Get the solution of the line expression by saving the stackRule return into a string
-                        String solution = b.stackRule(items).replaceAll("^0+(?!$)", "");
-                        // Print out the solution onto the same line
-                        System.out.println(solution);
+                        String solution = " ";
+                        if (b.stackRule(items) != null) {
+                            solution = solution + b.stackRule(items).replaceAll("^0+(?!$)", "");
+                            System.out.println(solution);
+                        } else {
+                            System.out.print("\n");
+                        }
                     }
                 }
             //Catch file not found exception
