@@ -348,6 +348,8 @@ public class BigNumArithmetic {
                 String two = l.pop().toString();
                 //Passed them into the mathMultiplication function and push the result onto the stack
                 l.push(mathMultiplication(two, one));
+            } else {
+                return null;
             }
         }
         //If there isn't exactly one number left at the end of the conditions, then invalid expression return nothing
