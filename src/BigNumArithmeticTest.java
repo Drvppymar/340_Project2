@@ -58,6 +58,14 @@ public class BigNumArithmeticTest {
         BigNumArithmetic b = new BigNumArithmetic();
         String[] line = new String[]{"1234", "0", "+"};
         assertEquals("1234", b.stackRule(line));
+        String[] line2 = new String[]{"8541", "958", "*"};
+        assertEquals("8182278", b.stackRule(line2));
+        String[] line3 = new String[]{"987896970", "645785678", "-"};
+        assertEquals("342111292", b.stackRule(line3));
+        String[] line4 = new String[]{"222", "22", "*", "-"};
+        assertEquals(null, b.stackRule(line4));
+        String[] line5 = new String[]{"374", "2", "985", "+"};
+        assertEquals(null, b.stackRule(line5));
     }
 
      /*Test to make sure the mathMultiplication function works. Multiplied two numbers together as strings and made sure the product was
@@ -79,6 +87,7 @@ public class BigNumArithmeticTest {
     @Test
     public void mathSubtraction() {
         BigNumArithmetic b = new BigNumArithmetic();
+        assertEquals(false, b.greaterThan("45", "76"));
         assertEquals("8902892", b.mathSubtraction("9879867", "976975"));
         assertEquals("8902892", b.mathSubtraction("976975", "9879867"));
         assertEquals("0", b.mathSubtraction("35", "35"));

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e56fc03f-7650-4da3-8225-8e82690dc121" name="Changes" comment="Made new test cases to increase our code coverage. Code coverage is at 94%." />
+    <list default="true" id="e56fc03f-7650-4da3-8225-8e82690dc121" name="Changes" comment="Made new test cases to increase our code coverage. Code coverage is at 94%.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BigNumArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigNumArithmeticTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,21 +80,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BigNumArithmeticTest.mathMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BigNumArithmetic" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BigNumArithmeticTest" />
-      <option name="METHOD_NAME" value="mathMultiplication" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BigNumArithmeticTest.mathSubtraction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BigNumArithmetic" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BigNumArithmeticTest" />
       <option name="METHOD_NAME" value="mathSubtraction" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BigNumArithmeticTest.stackRule" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BigNumArithmetic" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BigNumArithmeticTest" />
+      <option name="METHOD_NAME" value="stackRule" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,10 +113,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BigNumArithmeticTest" />
+        <item itemvalue="JUnit.BigNumArithmeticTest.mathSubtraction" />
+        <item itemvalue="JUnit.BigNumArithmeticTest.stackRule" />
         <item itemvalue="JUnit.BigNumArithmeticTest.llistTest" />
         <item itemvalue="JUnit.BigNumArithmeticTest.stackTest" />
-        <item itemvalue="JUnit.BigNumArithmeticTest.mathSubtraction" />
-        <item itemvalue="JUnit.BigNumArithmeticTest.mathMultiplication" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710169999972</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Made new test cases to increase our code coverage. Code coverage is at 94%.">
+      <created>1710170057236</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1710170057236</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -403,6 +413,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BigNumArithmetic$BigNumArithmeticTest_mathMultiplication.ic" NAME="BigNumArithmeticTest.mathMultiplication Coverage Results" MODIFIED="1709321071675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/BigNumArithmetic$BigNumArithmeticTest.ic" NAME="BigNumArithmeticTest Coverage Results" MODIFIED="1710169790500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/BigNumArithmetic$BigNumArithmeticTest.ic" NAME="BigNumArithmeticTest Coverage Results" MODIFIED="1710170099097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
