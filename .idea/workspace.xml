@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e56fc03f-7650-4da3-8225-8e82690dc121" name="Changes" comment="Made a couple small changes to determine an invalid expression.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BigNumArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigNumArithmeticTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="e56fc03f-7650-4da3-8225-8e82690dc121" name="Changes" comment="Made new test cases to increase our code coverage. Code coverage is at 94%." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -325,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710018767940</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Made new test cases to increase our code coverage. Code coverage is at 94%.">
+      <created>1710169999972</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1710169999972</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -370,7 +374,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Check file" />
     <MESSAGE value="Added all stack, list, and linked list files from textbook. Also, it can run in the command line with passing in file name as an argument and prints out the file in the terminal." />
     <MESSAGE value="Got rid of all extra whitespaces except the empty lines when printing the file. Comments are what PC showed me but, I can't get it to work yet." />
     <MESSAGE value="Got rid of empty lines in file." />
@@ -395,10 +398,11 @@
     <MESSAGE value="Added line of code getting rid of zeroes when result is produced but, before it is printed." />
     <MESSAGE value="Made a couple small changes to how the answers are printed to the screen." />
     <MESSAGE value="Made a couple small changes to determine an invalid expression." />
-    <option name="LAST_COMMIT_MESSAGE" value="Made a couple small changes to determine an invalid expression." />
+    <MESSAGE value="Made new test cases to increase our code coverage. Code coverage is at 94%." />
+    <option name="LAST_COMMIT_MESSAGE" value="Made new test cases to increase our code coverage. Code coverage is at 94%." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BigNumArithmetic$BigNumArithmeticTest_mathMultiplication.ic" NAME="BigNumArithmeticTest.mathMultiplication Coverage Results" MODIFIED="1709321071675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/BigNumArithmetic$BigNumArithmeticTest.ic" NAME="BigNumArithmeticTest Coverage Results" MODIFIED="1710169649989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/BigNumArithmetic$BigNumArithmeticTest.ic" NAME="BigNumArithmeticTest Coverage Results" MODIFIED="1710169790500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
